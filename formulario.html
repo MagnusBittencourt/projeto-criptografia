@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formulario.css" />
+    <script src="script.js" defer></script>
+    <title>Formulário</title>
+  </head>
+  <body>
+    <form id="form">
+      <select id="metodo">
+        <option selected disabled>Escolha o Metodo</option>
+        <option>Base 64</option>
+        <option>Cifras de Cesar</option>
+      </select>
+      <input id="incremento" type="number" />
+
+      <div>
+        <label>
+          <input
+            id="criptografar"
+            type="radio"
+            name="criptografia"
+            value="criptografar"
+            required
+          />
+          Codificar
+        </label>
+        <br />
+        <label>
+          <input
+            id="descriptografar"
+            type="radio"
+            name="criptografia"
+            value="descriptografar"
+            required
+          />
+          Decodificar
+        </label>
+      </div>
+
+      
+      <div>
+        <textarea
+          placeholder="Entrada De Texto"
+          style="resize: none"
+          id="entrada"
+        ></textarea>
+
+        <textarea
+          placeholder="Saida De Texto"
+          style="resize: none"
+          id="saida"
+        ></textarea>
+      </div>
+      <br>
+      <div>
+        <button id="go">Confirmar</button>
+      </div>
+    </form>
+  </body>
+</html>
+
+
+
+
