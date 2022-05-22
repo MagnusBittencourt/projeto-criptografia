@@ -7,19 +7,26 @@
 
 body{
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.832);
+  background-color: rgba(0, 0, 0, 0.84);
 }
 
-
+ 
 form {
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 22vh;
-    
-    
+    padding: 22vh; 
 }
+
+form.tamanho{
+  width: 200px;
+  height: 30px;
+ }
+
+ 
+
+ 
   textarea{
     width: 400px;
     height: 100px;
@@ -33,13 +40,15 @@ form {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    color: #000;
-    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(195, 191, 4);
     border-radius: 45px;
    }
    
-   
-   
+   select{  width: 200px;
+    height: 30px;
+    font-size: 1.2rem;
+     
+   }
   
-
    
